@@ -1,0 +1,42 @@
+    1  git config --global --list
+    2  git config --global user.name "Povilas"
+    3  git config --global user.email "povilas.palionis@stud.techin.lt
+    4  git config --global user.email "povilas.palionis@stud.techin.lt"
+    5  q
+    6  git config --global user.email "povilas.palionis@stud.techin.lt"
+    7  git config --global --list
+    8  git config --global core.editor "code --wait"
+    9  git config --global --list
+   10  git status
+   11  git init
+   12  ls -a
+   13  ls -l
+   14  git status
+   15  code .
+   16  git status
+   17  git add .
+   18  git status
+   19  git commit -m "Init commit"
+   20  git status
+   21  git status
+   22  git add index.html file1.txt 
+   23  git commit 
+   24  git add .
+   25  git status
+   26  git commit -m "Add footer"
+   27  git status
+   28  git log
+   29  git log --oneline
+   30  git commit -am "Add kazkas"
+   31  git log --oneline
+   32  git commit --amend -m "Add something"
+   33  git log --oneline
+   34  git checkout 76a7c0c
+   35  git checkout master
+   36  git status
+   37  git status
+   38  git add .
+   39  git commit -m "Add gitignore"
+   40  git status
+   41  git status
+   42  history > history.txt
